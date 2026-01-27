@@ -18,4 +18,8 @@ func main() {
 	fmt.Println("Sum with different type:", float64(numberInt)+numberFloat) // Different type int and float64, must convert to same type
 
 	// Concat string
+	fmt.Println(msg + " Hi!")
+	// Concat string with number
+	fmt.Println("my money: " + fmt.Sprint(numberInt))
+	fmt.Println("my money:", numberInt) // alternative way to print string with number, question comma is added space automatically ?
 }
